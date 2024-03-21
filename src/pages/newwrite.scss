@@ -1,0 +1,183 @@
+
+.alert {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.alert:hover {
+  background-color: #f1c2c7;
+}
+
+.alert button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.alert button:hover {
+  background-color: #c82333;
+}
+
+.loading-screen{
+   
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 400px;
+}
+.write-form-wrapper{
+    margin-top: 50px;
+    .write-form{
+        .loader-class{
+            height: 100vh;
+            width: 100%;
+            background-color: #000000;
+
+            .loader {
+                color: #fff;
+                font-size: 10px;
+                width: 2em;
+                height: 2em;
+                border-radius: 50%;
+                position: relative;
+                text-indent: -9999em;
+                animation: mulShdSpin 1.3s infinite linear;
+                transform: translateZ(0);
+              }
+              
+              @keyframes mulShdSpin {
+                0%,
+                100% {
+                  box-shadow: 0 -3em 0 0.2em, 
+                  2em -2em 0 0em, 3em 0 0 -1em, 
+                  2em 2em 0 -1em, 0 3em 0 -1em, 
+                  -2em 2em 0 -1em, -3em 0 0 -1em, 
+                  -2em -2em 0 0;
+                }
+                12.5% {
+                  box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 
+                  3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, 
+                  -2em 2em 0 -1em, -3em 0 0 -1em, 
+                  -2em -2em 0 -1em;
+                }
+                25% {
+                  box-shadow: 0 -3em 0 -0.5em, 
+                  2em -2em 0 0, 3em 0 0 0.2em, 
+                  2em 2em 0 0, 0 3em 0 -1em, 
+                  -2em 2em 0 -1em, -3em 0 0 -1em, 
+                  -2em -2em 0 -1em;
+                }
+                37.5% {
+                  box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+                   3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, 
+                   -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+                }
+                50% {
+                  box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+                   3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, 
+                   -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+                }
+                62.5% {
+                  box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+                   3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, 
+                   -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+                }
+                75% {
+                  box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 
+                  3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+                  -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+                }
+                87.5% {
+                  box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 
+                  3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+                  -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+                }
+              }
+        }
+    }
+}
+
+
+    
+
+.write-form-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+.write-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 100px;
+    max-width: 40%;
+    
+     
+.classify-your-article {
+    
+    .classify-title span{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+.inputtitle{
+    input:hover{
+        border-color: #6d6c6c;
+        width: 100%;
+    }
+}
+.inputauthor{
+    input:hover{
+        border-color: #6d6c6c;
+    }
+}
+.image-and-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.news-article{
+    /* Style for text area */
+textarea {
+  width: 100%; /* Take up full width */
+  height: 300px; /* Set initial height */
+  padding: 10px; /* Add padding for better readability */
+  font-size: 16px; /* Set font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  background-color: #f8f8f8;
+  resize: none;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Hover effect */
+textarea:hover {
+  border-color: #6d6c6c; /* Change border color on hover */
+}
+
+/* Focus effect */
+textarea:focus {
+  border-color: #000000;
+  border: 2px black; /* Change border color on focus */
+  /* Remove default focus outline */
+}
+
+}
+}
+}
